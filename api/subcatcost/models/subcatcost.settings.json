@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subcatcosts",
+  "info": {
+    "name": "subcatcost",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "base_cost": {
+      "type": "string"
+    },
+    "pro_base_cost": {
+      "type": "string"
+    },
+    "usa_shipping": {
+      "type": "string"
+    },
+    "canada_shiping": {
+      "type": "string"
+    },
+    "international_shipping": {
+      "type": "string"
+    },
+    "sub_cateogry_id": {
+      "type": "integer"
+    }
+  }
+}

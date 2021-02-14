@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testpublishes",
+  "info": {
+    "name": "testpublish",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "published_id": {
+      "type": "string"
+    },
+    "test_published_result": {
+      "type": "string"
+    },
+    "test_published_date": {
+      "type": "datetime"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "store_id": {
+      "type": "integer"
+    }
+  }
+}

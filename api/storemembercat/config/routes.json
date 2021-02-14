@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/storemembercats",
+      "handler": "storemembercat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/storemembercats/count",
+      "handler": "storemembercat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/storemembercats/:id",
+      "handler": "storemembercat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/storemembercats",
+      "handler": "storemembercat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/storemembercats/:id",
+      "handler": "storemembercat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/storemembercats/:id",
+      "handler": "storemembercat.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

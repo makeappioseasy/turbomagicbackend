@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autoorders",
+  "info": {
+    "name": "autoorder",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "auto_order_status": {
+      "type": "string"
+    },
+    "member_id": {
+      "type": "integer"
+    }
+  }
+}

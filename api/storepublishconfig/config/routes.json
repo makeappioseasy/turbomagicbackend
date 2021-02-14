@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/storepublishconfigs",
+      "handler": "storepublishconfig.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/storepublishconfigs/count",
+      "handler": "storepublishconfig.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/storepublishconfigs/:id",
+      "handler": "storepublishconfig.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/storepublishconfigs",
+      "handler": "storepublishconfig.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/storepublishconfigs/:id",
+      "handler": "storepublishconfig.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/storepublishconfigs/:id",
+      "handler": "storepublishconfig.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

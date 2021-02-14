@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/genoccasions",
+      "handler": "genoccasion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genoccasions/count",
+      "handler": "genoccasion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genoccasions/:id",
+      "handler": "genoccasion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/genoccasions",
+      "handler": "genoccasion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/genoccasions/:id",
+      "handler": "genoccasion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/genoccasions/:id",
+      "handler": "genoccasion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

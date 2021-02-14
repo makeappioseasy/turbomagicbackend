@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/descriptiondfs",
+      "handler": "descriptiondf.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/descriptiondfs/count",
+      "handler": "descriptiondf.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/descriptiondfs/:id",
+      "handler": "descriptiondf.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/descriptiondfs",
+      "handler": "descriptiondf.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/descriptiondfs/:id",
+      "handler": "descriptiondf.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/descriptiondfs/:id",
+      "handler": "descriptiondf.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

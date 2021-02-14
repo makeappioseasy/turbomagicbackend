@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thrivecartordercharges",
+  "info": {
+    "name": "thrivecartordercharge",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "order_charge_name": {
+      "type": "string"
+    },
+    "order_charge_item_type": {
+      "type": "string"
+    },
+    "order_charge_item_identifier": {
+      "type": "string"
+    },
+    "order_charge_type": {
+      "type": "string"
+    },
+    "order_charge_item_payment_plan_name": {
+      "type": "string"
+    },
+    "thrivecart_order_id": {
+      "type": "biginteger"
+    },
+    "order_charge_item_quantity": {
+      "type": "integer"
+    },
+    "order_charge_reference": {
+      "type": "integer"
+    },
+    "order_charge_item_amount_str": {
+      "type": "float"
+    },
+    "order_charge_item_payment_plan_id": {
+      "type": "integer"
+    }
+  }
+}

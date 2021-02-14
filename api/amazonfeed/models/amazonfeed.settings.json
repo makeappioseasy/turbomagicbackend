@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "amazonfeeds",
+  "info": {
+    "name": "amazonfeed",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "project_post_id": {
+      "type": "string"
+    },
+    "project_sku": {
+      "type": "string"
+    },
+    "fulfillment_id": {
+      "type": "string"
+    },
+    "feed_submit_date": {
+      "type": "datetime"
+    },
+    "feed_submit_type": {
+      "type": "string"
+    },
+    "feed_submit_status": {
+      "type": "string"
+    },
+    "feed_submit_check_time": {
+      "type": "datetime"
+    },
+    "feed_submit_check_result": {
+      "type": "string"
+    },
+    "feed_submit_log": {
+      "type": "text"
+    },
+    "feed_submit_tag": {
+      "type": "string"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "amazon_feed_id": {
+      "type": "biginteger"
+    },
+    "published_id": {
+      "type": "biginteger"
+    },
+    "feed_submit_id": {
+      "type": "biginteger"
+    },
+    "feed_submit_script_id": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/storemembers",
+      "handler": "storemember.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/storemembers/count",
+      "handler": "storemember.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/storemembers/:id",
+      "handler": "storemember.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/storemembers",
+      "handler": "storemember.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/storemembers/:id",
+      "handler": "storemember.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/storemembers/:id",
+      "handler": "storemember.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

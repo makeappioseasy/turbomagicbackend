@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genadjs",
+  "info": {
+    "name": "genadj"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "adjname": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/maxfulfillments",
+      "handler": "maxfulfillment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/maxfulfillments/count",
+      "handler": "maxfulfillment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/maxfulfillments/:id",
+      "handler": "maxfulfillment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/maxfulfillments",
+      "handler": "maxfulfillment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/maxfulfillments/:id",
+      "handler": "maxfulfillment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/maxfulfillments/:id",
+      "handler": "maxfulfillment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

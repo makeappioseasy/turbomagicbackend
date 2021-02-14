@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stores",
+  "info": {
+    "name": "store",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "store_name": {
+      "type": "string"
+    },
+    "store_image_path": {
+      "type": "string"
+    },
+    "store_description": {
+      "type": "string"
+    },
+    "store_variable": {
+      "type": "json"
+    },
+    "store_status": {
+      "type": "boolean"
+    },
+    "store_max_publish": {
+      "type": "integer"
+    }
+  }
+}

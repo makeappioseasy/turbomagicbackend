@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "otherorders",
+  "info": {
+    "name": "otherorder",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "marketplace_order_id": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "project_sku": {
+      "type": "string"
+    },
+    "other_order_tag": {
+      "type": "string"
+    },
+    "other_order_value": {
+      "type": "string"
+    }
+  }
+}

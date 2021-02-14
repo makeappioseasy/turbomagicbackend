@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "systemscripts",
+  "info": {
+    "name": "systemscript",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "system_script_tag": {
+      "type": "string"
+    },
+    "system_script_date": {
+      "type": "datetime"
+    }
+  }
+}

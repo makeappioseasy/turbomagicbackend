@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/autoorderlogs",
+      "handler": "autoorderlog.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/autoorderlogs/count",
+      "handler": "autoorderlog.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/autoorderlogs/:id",
+      "handler": "autoorderlog.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/autoorderlogs",
+      "handler": "autoorderlog.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/autoorderlogs/:id",
+      "handler": "autoorderlog.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/autoorderlogs/:id",
+      "handler": "autoorderlog.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

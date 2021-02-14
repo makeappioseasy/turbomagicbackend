@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/genreceivers",
+      "handler": "genreceiver.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genreceivers/count",
+      "handler": "genreceiver.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genreceivers/:id",
+      "handler": "genreceiver.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/genreceivers",
+      "handler": "genreceiver.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/genreceivers/:id",
+      "handler": "genreceiver.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/genreceivers/:id",
+      "handler": "genreceiver.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

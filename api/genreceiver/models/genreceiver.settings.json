@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genreceivers",
+  "info": {
+    "name": "genreceiver"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "receivername": {
+      "type": "string"
+    },
+    "nichecatid": {
+      "type": "integer"
+    }
+  }
+}

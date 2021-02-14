@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "descriptiondfs",
+  "info": {
+    "name": "descriptiondf",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "default_description_content": {
+      "type": "text"
+    },
+    "default_description_feature": {
+      "type": "json"
+    },
+    "category_id": {
+      "type": "integer"
+    },
+    "sub_category_id": {
+      "type": "integer"
+    }
+  }
+}

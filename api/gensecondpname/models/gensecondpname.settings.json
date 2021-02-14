@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gensecondpnames",
+  "info": {
+    "name": "gensecondpname"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "secondaryname": {
+      "type": "string"
+    },
+    "subcatid": {
+      "type": "integer"
+    }
+  }
+}

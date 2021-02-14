@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autoorderlogs",
+  "info": {
+    "name": "autoorderlog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "member_email": {
+      "type": "email"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "context": {
+      "type": "text"
+    },
+    "auto_order_log_date": {
+      "type": "datetime"
+    },
+    "mark_as_read": {
+      "type": "boolean"
+    },
+    "member_id": {
+      "type": "integer"
+    }
+  }
+}

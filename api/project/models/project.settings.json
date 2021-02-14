@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "campaign_name": {
+      "type": "string"
+    },
+    "project_title": {
+      "type": "string"
+    },
+    "project_description": {
+      "type": "text"
+    },
+    "project_feature": {
+      "type": "json"
+    },
+    "project_keyword": {
+      "type": "text"
+    },
+    "project_created_time": {
+      "type": "datetime"
+    },
+    "project_published_time": {
+      "type": "datetime"
+    },
+    "project_status": {
+      "type": "string"
+    },
+    "project_sku": {
+      "type": "string"
+    },
+    "project_csv_id": {
+      "type": "string"
+    },
+    "project_created_by": {
+      "type": "string"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "category_id": {
+      "type": "integer"
+    },
+    "sub_category_id": {
+      "type": "integer"
+    },
+    "project_cost": {
+      "type": "float"
+    },
+    "projectdetail": {
+      "via": "project",
+      "collection": "projectdetail"
+    },
+    "subcat": {
+      "model": "subcat"
+    },
+    "category": {
+      "model": "category"
+    }
+  }
+}

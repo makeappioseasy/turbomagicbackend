@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "name": "plan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "plan_name": {
+      "type": "string"
+    },
+    "plan_currency": {
+      "type": "string"
+    },
+    "plan_method": {
+      "type": "string"
+    },
+    "plan_status": {
+      "type": "boolean"
+    },
+    "plan_price": {
+      "type": "float"
+    },
+    "thrivecart_plan_id": {
+      "type": "integer"
+    }
+  }
+}

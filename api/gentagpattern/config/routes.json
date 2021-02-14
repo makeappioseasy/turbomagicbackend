@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gentagpatterns",
+      "handler": "gentagpattern.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gentagpatterns/count",
+      "handler": "gentagpattern.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gentagpatterns/:id",
+      "handler": "gentagpattern.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gentagpatterns",
+      "handler": "gentagpattern.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gentagpatterns/:id",
+      "handler": "gentagpattern.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gentagpatterns/:id",
+      "handler": "gentagpattern.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

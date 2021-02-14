@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thrivecartorders",
+  "info": {
+    "name": "thrivecartorder",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "event": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string"
+    },
+    "thrivecart_account": {
+      "type": "string"
+    },
+    "orderdate": {
+      "type": "datetime"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "customer_email": {
+      "type": "email"
+    },
+    "customer_name": {
+      "type": "string"
+    },
+    "customer_first_name": {
+      "type": "string"
+    },
+    "customer_last_name": {
+      "type": "string"
+    },
+    "order_processor": {
+      "type": "string"
+    },
+    "order_charges_id": {
+      "type": "string"
+    },
+    "confirm_url": {
+      "type": "string"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "base_product": {
+      "type": "integer"
+    },
+    "order_id": {
+      "type": "biginteger"
+    },
+    "invoice_id": {
+      "type": "biginteger"
+    },
+    "order_timestamp": {
+      "type": "datetime"
+    },
+    "customer_id": {
+      "type": "biginteger"
+    },
+    "order_total_str": {
+      "type": "float"
+    }
+  }
+}

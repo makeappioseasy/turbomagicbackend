@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "otherprojects",
+  "info": {
+    "name": "otherproject",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "other_project_tag": {
+      "type": "string"
+    },
+    "other_project_value": {
+      "type": "string"
+    },
+    "member_id": {
+      "type": "integer"
+    }
+  }
+}

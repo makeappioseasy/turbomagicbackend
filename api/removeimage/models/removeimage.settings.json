@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "removeimages",
+  "info": {
+    "name": "removeimage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "remove_image_name": {
+      "type": "string"
+    },
+    "remove_image_status": {
+      "type": "boolean"
+    }
+  }
+}

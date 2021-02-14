@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gensecondpnames",
+      "handler": "gensecondpname.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gensecondpnames/count",
+      "handler": "gensecondpname.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gensecondpnames/:id",
+      "handler": "gensecondpname.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gensecondpnames",
+      "handler": "gensecondpname.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gensecondpnames/:id",
+      "handler": "gensecondpname.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gensecondpnames/:id",
+      "handler": "gensecondpname.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

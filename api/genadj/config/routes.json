@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/genadjs",
+      "handler": "genadj.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genadjs/count",
+      "handler": "genadj.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genadjs/:id",
+      "handler": "genadj.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/genadjs",
+      "handler": "genadj.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/genadjs/:id",
+      "handler": "genadj.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/genadjs/:id",
+      "handler": "genadj.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

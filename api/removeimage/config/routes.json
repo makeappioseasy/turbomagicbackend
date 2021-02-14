@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/removeimages",
+      "handler": "removeimage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/removeimages/count",
+      "handler": "removeimage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/removeimages/:id",
+      "handler": "removeimage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/removeimages",
+      "handler": "removeimage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/removeimages/:id",
+      "handler": "removeimage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/removeimages/:id",
+      "handler": "removeimage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

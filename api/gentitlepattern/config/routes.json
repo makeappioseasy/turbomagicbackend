@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gentitlepatterns",
+      "handler": "gentitlepattern.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gentitlepatterns/count",
+      "handler": "gentitlepattern.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gentitlepatterns/:id",
+      "handler": "gentitlepattern.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gentitlepatterns",
+      "handler": "gentitlepattern.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gentitlepatterns/:id",
+      "handler": "gentitlepattern.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gentitlepatterns/:id",
+      "handler": "gentitlepattern.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

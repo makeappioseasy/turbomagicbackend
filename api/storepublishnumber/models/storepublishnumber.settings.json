@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "storepublishnumbers",
+  "info": {
+    "name": "storepublishnumber",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "member_id": {
+      "type": "integer"
+    },
+    "store_id": {
+      "type": "integer"
+    },
+    "store_publish_number": {
+      "type": "integer"
+    }
+  }
+}

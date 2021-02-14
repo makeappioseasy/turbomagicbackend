@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "storemembers",
+  "info": {
+    "name": "storemember",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "store_member_tag": {
+      "type": "string"
+    },
+    "store_member_key": {
+      "type": "string"
+    },
+    "encrypt": {
+      "type": "boolean"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "store_id": {
+      "type": "integer"
+    }
+  }
+}

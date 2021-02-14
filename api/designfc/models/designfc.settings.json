@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "designfcs",
+  "info": {
+    "name": "designfc",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "background_image_path": {
+      "type": "string"
+    },
+    "front_width": {
+      "type": "string"
+    },
+    "front_height": {
+      "type": "string"
+    },
+    "front_top": {
+      "type": "string"
+    },
+    "front_left": {
+      "type": "string"
+    },
+    "back_width": {
+      "type": "string"
+    },
+    "back_height": {
+      "type": "string"
+    },
+    "back_top": {
+      "type": "string"
+    },
+    "back_left": {
+      "type": "string"
+    },
+    "resolution": {
+      "type": "string"
+    },
+    "image_type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "sub_category_id": {
+      "type": "integer"
+    }
+  }
+}

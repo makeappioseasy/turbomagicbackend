@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genniches",
+  "info": {
+    "name": "Genniche"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nichename": {
+      "type": "string"
+    },
+    "nichecatid": {
+      "type": "integer"
+    },
+    "genderid": {
+      "type": "integer"
+    },
+    "occasionid": {
+      "type": "integer"
+    }
+  }
+}

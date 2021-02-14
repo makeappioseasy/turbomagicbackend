@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projectdetails",
+  "info": {
+    "name": "Projectdetail",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "project_detail_tag": {
+      "type": "string"
+    },
+    "project_detail_value": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "biginteger"
+    },
+    "project": {
+      "model": "project",
+      "via": "projectdetail"
+    },
+    "projectorder": {
+      "via": "projectdetails",
+      "collection": "projectorder",
+      "dominant": true
+    }
+  }
+}

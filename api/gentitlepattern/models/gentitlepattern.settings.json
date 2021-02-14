@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gentitlepatterns",
+  "info": {
+    "name": "gentitlepattern"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titlename": {
+      "type": "string"
+    },
+    "titlestatus": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gensenders",
+  "info": {
+    "name": "gensender"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sendername": {
+      "type": "string"
+    },
+    "nichecatid": {
+      "type": "integer"
+    }
+  }
+}

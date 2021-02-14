@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/autoorders",
+      "handler": "autoorder.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/autoorders/count",
+      "handler": "autoorder.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/autoorders/:id",
+      "handler": "autoorder.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/autoorders",
+      "handler": "autoorder.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/autoorders/:id",
+      "handler": "autoorder.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/autoorders/:id",
+      "handler": "autoorder.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

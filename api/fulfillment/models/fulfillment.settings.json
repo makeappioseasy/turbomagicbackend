@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fulfillments",
+  "info": {
+    "name": "fulfillment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "marketplace_fulfillment_id": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "supplier_order_id": {
+      "type": "string"
+    },
+    "fulfillment_log": {
+      "type": "text"
+    },
+    "fulfillment_date": {
+      "type": "datetime"
+    },
+    "fulfillment_status": {
+      "type": "string"
+    },
+    "store_id": {
+      "type": "integer"
+    }
+  }
+}

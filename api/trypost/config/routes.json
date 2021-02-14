@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tryposts",
+      "handler": "trypost.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tryposts/count",
+      "handler": "trypost.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tryposts/:id",
+      "handler": "trypost.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tryposts",
+      "handler": "trypost.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tryposts/:id",
+      "handler": "trypost.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tryposts/:id",
+      "handler": "trypost.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

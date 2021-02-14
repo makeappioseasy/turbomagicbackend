@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gengenders",
+      "handler": "gengender.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gengenders/count",
+      "handler": "gengender.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gengenders/:id",
+      "handler": "gengender.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gengenders",
+      "handler": "gengender.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gengenders/:id",
+      "handler": "gengender.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gengenders/:id",
+      "handler": "gengender.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

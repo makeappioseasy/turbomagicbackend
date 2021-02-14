@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tempprojects",
+      "handler": "tempproject.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tempprojects/count",
+      "handler": "tempproject.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tempprojects/:id",
+      "handler": "tempproject.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tempprojects",
+      "handler": "tempproject.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tempprojects/:id",
+      "handler": "tempproject.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tempprojects/:id",
+      "handler": "tempproject.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

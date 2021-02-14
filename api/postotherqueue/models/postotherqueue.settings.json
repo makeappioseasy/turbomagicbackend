@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "postotherqueues",
+  "info": {
+    "name": "postotherqueue"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "post_time": {
+      "type": "datetime"
+    },
+    "project_post_id": {
+      "type": "integer"
+    },
+    "post_try": {
+      "type": "integer"
+    }
+  }
+}

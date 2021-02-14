@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stepbysteps",
+      "handler": "stepbystep.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stepbysteps/count",
+      "handler": "stepbystep.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stepbysteps/:id",
+      "handler": "stepbystep.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stepbysteps",
+      "handler": "stepbystep.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stepbysteps/:id",
+      "handler": "stepbystep.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stepbysteps/:id",
+      "handler": "stepbystep.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stepbysteps",
+  "info": {
+    "name": "stepbystep",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "step_tag": {
+      "type": "string"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "step_result": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/backgetorders",
+      "handler": "backgetorder.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/backgetorders/count",
+      "handler": "backgetorder.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/backgetorders/:id",
+      "handler": "backgetorder.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/backgetorders",
+      "handler": "backgetorder.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/backgetorders/:id",
+      "handler": "backgetorder.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/backgetorders/:id",
+      "handler": "backgetorder.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

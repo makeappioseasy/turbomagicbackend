@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "name": "member",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "member_email": {
+      "type": "email"
+    },
+    "member_level": {
+      "type": "string"
+    },
+    "member_status": {
+      "type": "string"
+    },
+    "member_pwd": {
+      "type": "text"
+    }
+  }
+}

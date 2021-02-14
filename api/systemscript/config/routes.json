@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/systemscripts",
+      "handler": "systemscript.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/systemscripts/count",
+      "handler": "systemscript.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/systemscripts/:id",
+      "handler": "systemscript.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/systemscripts",
+      "handler": "systemscript.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/systemscripts/:id",
+      "handler": "systemscript.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/systemscripts/:id",
+      "handler": "systemscript.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/otherorders",
+      "handler": "otherorder.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/otherorders/count",
+      "handler": "otherorder.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/otherorders/:id",
+      "handler": "otherorder.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/otherorders",
+      "handler": "otherorder.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/otherorders/:id",
+      "handler": "otherorder.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/otherorders/:id",
+      "handler": "otherorder.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "descriptiontps",
+  "info": {
+    "name": "descriptiontp",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description_content": {
+      "type": "text"
+    },
+    "description_feature": {
+      "type": "json"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "category_id": {
+      "type": "integer"
+    },
+    "sub_category_id": {
+      "type": "integer"
+    },
+    "subcategory": {
+      "model": "subcat"
+    }
+  }
+}

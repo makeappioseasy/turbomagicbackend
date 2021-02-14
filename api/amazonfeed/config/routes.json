@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/amazonfeeds",
+      "handler": "amazonfeed.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/amazonfeeds/count",
+      "handler": "amazonfeed.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/amazonfeeds/:id",
+      "handler": "amazonfeed.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/amazonfeeds",
+      "handler": "amazonfeed.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/amazonfeeds/:id",
+      "handler": "amazonfeed.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/amazonfeeds/:id",
+      "handler": "amazonfeed.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

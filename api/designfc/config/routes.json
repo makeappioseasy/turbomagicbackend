@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/designfcs",
+      "handler": "designfc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/designfcs/count",
+      "handler": "designfc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/designfcs/:id",
+      "handler": "designfc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/designfcs",
+      "handler": "designfc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/designfcs/:id",
+      "handler": "designfc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/designfcs/:id",
+      "handler": "designfc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

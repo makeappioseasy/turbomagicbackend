@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genoccasions",
+  "info": {
+    "name": "genoccasion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "occasionname": {
+      "type": "string"
+    }
+  }
+}

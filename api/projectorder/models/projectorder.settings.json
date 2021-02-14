@@ -1,0 +1,124 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projectorders",
+  "info": {
+    "name": "projectorder",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "order_id": {
+      "type": "string"
+    },
+    "project_sku": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "address1": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "state_code": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "country_code": {
+      "type": "string"
+    },
+    "order_status": {
+      "type": "string"
+    },
+    "order_created_date": {
+      "type": "datetime"
+    },
+    "order_supplier_created_name": {
+      "type": "datetime"
+    },
+    "order_sku_match_status": {
+      "type": "string"
+    },
+    "supplier_tracking_id": {
+      "type": "string"
+    },
+    "product_name_marketplace": {
+      "type": "text"
+    },
+    "supplier_order_id": {
+      "type": "string"
+    },
+    "supplier_internal_id": {
+      "type": "string"
+    },
+    "supplier_sku": {
+      "type": "string"
+    },
+    "tracking_url": {
+      "type": "string"
+    },
+    "supplier_shipping_status": {
+      "type": "string"
+    },
+    "supplier_shipping_service": {
+      "type": "string"
+    },
+    "supplier_shipping_date": {
+      "type": "datetime"
+    },
+    "supplier_dropship_fulfillment_id": {
+      "type": "string"
+    },
+    "supplier_id": {
+      "type": "integer"
+    },
+    "marketplace_order_id": {
+      "type": "string"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "store_id": {
+      "type": "integer"
+    },
+    "project_id": {
+      "type": "biginteger"
+    },
+    "qty": {
+      "type": "integer"
+    },
+    "order_api_last_update": {
+      "type": "datetime"
+    },
+    "projectdetails": {
+      "collection": "projectdetail",
+      "via": "projectorder"
+    },
+    "store": {
+      "model": "store"
+    },
+    "project": {
+      "model": "project"
+    }
+  }
+}

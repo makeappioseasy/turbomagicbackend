@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "maxfulfillments",
+  "info": {
+    "name": "maxfulfillment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "fulfillment_id": {
+      "type": "string"
+    }
+  }
+}

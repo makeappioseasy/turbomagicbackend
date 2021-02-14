@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thrivecartorders",
+      "handler": "thrivecartorder.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thrivecartorders/count",
+      "handler": "thrivecartorder.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thrivecartorders/:id",
+      "handler": "thrivecartorder.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thrivecartorders",
+      "handler": "thrivecartorder.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thrivecartorders/:id",
+      "handler": "thrivecartorder.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thrivecartorders/:id",
+      "handler": "thrivecartorder.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

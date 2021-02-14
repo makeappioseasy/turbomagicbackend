@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projectposts",
+  "info": {
+    "name": "projectpost",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "posted_queue_time": {
+      "type": "datetime"
+    },
+    "created_queue_time": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "biginteger"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "store_id": {
+      "type": "integer"
+    },
+    "post_script_id": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "storemembercats",
+  "info": {
+    "name": "storemembercat",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "marketplace_category_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "store_id": {
+      "type": "integer"
+    },
+    "category_id": {
+      "type": "integer"
+    },
+    "sub_category_id": {
+      "type": "integer"
+    }
+  }
+}

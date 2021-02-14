@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tryposts",
+  "info": {
+    "name": "trypost"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "posttime": {
+      "type": "datetime"
+    },
+    "projectpostid": {
+      "type": "biginteger"
+    },
+    "trypostcount": {
+      "type": "integer"
+    }
+  }
+}

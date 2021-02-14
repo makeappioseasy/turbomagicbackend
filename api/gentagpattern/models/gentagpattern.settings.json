@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gentagpatterns",
+  "info": {
+    "name": "Gentagpattern"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tagname": {
+      "type": "string"
+    },
+    "tagstatus": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/genquotecounts",
+      "handler": "genquotecount.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genquotecounts/count",
+      "handler": "genquotecount.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genquotecounts/:id",
+      "handler": "genquotecount.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/genquotecounts",
+      "handler": "genquotecount.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/genquotecounts/:id",
+      "handler": "genquotecount.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/genquotecounts/:id",
+      "handler": "genquotecount.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

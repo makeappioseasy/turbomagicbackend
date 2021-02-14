@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tempprojects",
+  "info": {
+    "name": "tempproject",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "project_title": {
+      "type": "string"
+    },
+    "project_description": {
+      "type": "text"
+    },
+    "project_feature": {
+      "type": "json"
+    },
+    "project_keyword": {
+      "type": "text"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "category_id": {
+      "type": "integer"
+    },
+    "project_cost": {
+      "type": "float"
+    }
+  }
+}

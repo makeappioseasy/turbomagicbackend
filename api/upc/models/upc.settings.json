@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "upcs",
+  "info": {
+    "name": "upc",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "upc_value": {
+      "type": "string"
+    },
+    "upc_status": {
+      "type": "boolean"
+    },
+    "published_link": {
+      "type": "string"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "project_id": {
+      "type": "biginteger"
+    },
+    "store_id": {
+      "type": "integer"
+    },
+    "store": {
+      "model": "store"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genquotes",
+  "info": {
+    "name": "genquote"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "subcatid": {
+      "type": "integer"
+    },
+    "nicheid": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gennichecats",
+      "handler": "gennichecat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gennichecats/count",
+      "handler": "gennichecat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gennichecats/:id",
+      "handler": "gennichecat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gennichecats",
+      "handler": "gennichecat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gennichecats/:id",
+      "handler": "gennichecat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gennichecats/:id",
+      "handler": "gennichecat.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

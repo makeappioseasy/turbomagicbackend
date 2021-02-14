@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gennichecats",
+  "info": {
+    "name": "gennichecat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nichecatname": {
+      "type": "string"
+    }
+  }
+}

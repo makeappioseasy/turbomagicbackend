@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publisheds",
+  "info": {
+    "name": "published",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "marketplace_product_title": {
+      "type": "text"
+    },
+    "published_sku": {
+      "type": "string"
+    },
+    "published_date": {
+      "type": "datetime"
+    },
+    "published_link": {
+      "type": "string"
+    },
+    "published_status": {
+      "type": "string"
+    },
+    "published_log": {
+      "type": "text"
+    },
+    "marketplace_product_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "biginteger"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "store_id": {
+      "type": "integer"
+    },
+    "store": {
+      "model": "store"
+    }
+  }
+}

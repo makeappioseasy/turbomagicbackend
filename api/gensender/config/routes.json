@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gensenders",
+      "handler": "gensender.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gensenders/count",
+      "handler": "gensender.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gensenders/:id",
+      "handler": "gensender.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gensenders",
+      "handler": "gensender.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gensenders/:id",
+      "handler": "gensender.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gensenders/:id",
+      "handler": "gensender.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

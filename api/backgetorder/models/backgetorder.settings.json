@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "backgetorders",
+  "info": {
+    "name": "backgetorder",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "getdate": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "member_id": {
+      "type": "integer"
+    },
+    "store_id": {
+      "type": "integer"
+    }
+  }
+}

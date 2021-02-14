@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unsubs",
+  "info": {
+    "name": "unsub",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "unsub_date": {
+      "type": "datetime"
+    },
+    "unsub_status": {
+      "type": "boolean"
+    },
+    "member_id": {
+      "type": "integer"
+    }
+  }
+}
