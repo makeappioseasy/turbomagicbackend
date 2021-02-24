@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectmagento",
+      "handler": "connectmagento.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectmagento",
+      "handler": "connectmagento.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectmagento",
+      "handler": "connectmagento.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genpdconfigs",
+  "info": {
+    "name": "Genpdconfig"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "subcat": {
+      "model": "subcat"
+    },
+    "percent": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "connectetsies",
+  "info": {
+    "name": "connectetsy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "store": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

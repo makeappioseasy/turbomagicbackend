@@ -525,14 +525,71 @@
           "nichename": {
             "type": "string"
           },
-          "nichecatid": {
-            "type": "integer"
+          "occasion": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "occasionname": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
-          "genderid": {
-            "type": "integer"
+          "gender": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "gendername": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
-          "occasionid": {
-            "type": "integer"
+          "nichecat": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "nichecatname": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
           "published_at": {
             "type": "string",
@@ -545,14 +602,14 @@
           "nichename": {
             "type": "string"
           },
-          "nichecatid": {
-            "type": "integer"
+          "occasion": {
+            "type": "string"
           },
-          "genderid": {
-            "type": "integer"
+          "gender": {
+            "type": "string"
           },
-          "occasionid": {
-            "type": "integer"
+          "nichecat": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",

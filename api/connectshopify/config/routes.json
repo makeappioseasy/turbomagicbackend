@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectshopify",
+      "handler": "connectshopify.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectshopify",
+      "handler": "connectshopify.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectshopify",
+      "handler": "connectshopify.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

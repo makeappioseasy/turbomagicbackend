@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectwoocom",
+      "handler": "connectwoocom.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectwoocom",
+      "handler": "connectwoocom.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectwoocom",
+      "handler": "connectwoocom.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "connectebays",
+  "info": {
+    "name": "connectebay"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "store": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

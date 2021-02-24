@@ -525,8 +525,27 @@
           "sendername": {
             "type": "string"
           },
-          "nichecatid": {
-            "type": "integer"
+          "nichecat": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "nichecatname": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
           "published_at": {
             "type": "string",
@@ -539,8 +558,8 @@
           "sendername": {
             "type": "string"
           },
-          "nichecatid": {
-            "type": "integer"
+          "nichecat": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",

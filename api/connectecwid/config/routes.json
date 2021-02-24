@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectecwid",
+      "handler": "connectecwid.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectecwid",
+      "handler": "connectecwid.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectecwid",
+      "handler": "connectecwid.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

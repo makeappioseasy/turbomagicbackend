@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/genpdconfigs",
+      "handler": "genpdconfig.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genpdconfigs/count",
+      "handler": "genpdconfig.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/genpdconfigs/:id",
+      "handler": "genpdconfig.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/genpdconfigs",
+      "handler": "genpdconfig.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/genpdconfigs/:id",
+      "handler": "genpdconfig.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/genpdconfigs/:id",
+      "handler": "genpdconfig.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

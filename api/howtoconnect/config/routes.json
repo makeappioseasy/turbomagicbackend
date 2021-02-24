@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/howtoconnect",
+      "handler": "howtoconnect.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/howtoconnect",
+      "handler": "howtoconnect.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/howtoconnect",
+      "handler": "howtoconnect.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

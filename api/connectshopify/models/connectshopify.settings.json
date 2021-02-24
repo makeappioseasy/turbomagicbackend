@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "connectshopifies",
+  "info": {
+    "name": "connectshopify"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "store": {
+      "type": "string"
+    }
+  }
+}

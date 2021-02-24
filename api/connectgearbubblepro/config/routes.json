@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectgearbubblepro",
+      "handler": "connectgearbubblepro.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectgearbubblepro",
+      "handler": "connectgearbubblepro.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectgearbubblepro",
+      "handler": "connectgearbubblepro.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

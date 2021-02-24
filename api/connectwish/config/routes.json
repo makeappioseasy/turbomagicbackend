@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectwish",
+      "handler": "connectwish.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectwish",
+      "handler": "connectwish.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectwish",
+      "handler": "connectwish.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectetsy",
+      "handler": "connectetsy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectetsy",
+      "handler": "connectetsy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectetsy",
+      "handler": "connectetsy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

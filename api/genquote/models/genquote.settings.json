@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "genquotes",
   "info": {
-    "name": "genquote"
+    "name": "genquote",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,11 +14,18 @@
     "quote": {
       "type": "text"
     },
-    "subcatid": {
-      "type": "integer"
+    "gender": {
+      "model": "gengender"
     },
-    "nicheid": {
-      "type": "integer"
+    "niche": {
+      "model": "genniche"
+    },
+    "subcat": {
+      "collection": "subcat"
+    },
+    "allsubcat": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

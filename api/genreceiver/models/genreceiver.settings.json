@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "genreceivers",
   "info": {
-    "name": "genreceiver"
+    "name": "genreceiver",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,8 +14,8 @@
     "receivername": {
       "type": "string"
     },
-    "nichecatid": {
-      "type": "integer"
+    "nichecat": {
+      "model": "gennichecat"
     }
   }
 }

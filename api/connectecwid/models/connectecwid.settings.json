@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "connectecwids",
+  "info": {
+    "name": "connectecwid"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "store": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

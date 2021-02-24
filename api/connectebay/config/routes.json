@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectebay",
+      "handler": "connectebay.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectebay",
+      "handler": "connectebay.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectebay",
+      "handler": "connectebay.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

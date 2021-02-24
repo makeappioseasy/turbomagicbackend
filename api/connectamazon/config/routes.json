@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectamazon",
+      "handler": "connectamazon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectamazon",
+      "handler": "connectamazon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectamazon",
+      "handler": "connectamazon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

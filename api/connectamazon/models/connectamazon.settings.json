@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "connectamazons",
+  "info": {
+    "name": "connectamazon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "store": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

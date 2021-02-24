@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "connectmagentos",
+  "info": {
+    "name": "connectmagento"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "store": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

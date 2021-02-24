@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connectbigcommerce",
+      "handler": "connectbigcommerce.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connectbigcommerce",
+      "handler": "connectbigcommerce.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connectbigcommerce",
+      "handler": "connectbigcommerce.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
