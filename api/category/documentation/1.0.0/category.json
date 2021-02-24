@@ -628,11 +628,17 @@
                 "supplier_id": {
                   "type": "integer"
                 },
+                "category": {
+                  "type": "string"
+                },
                 "supplier": {
                   "type": "string"
                 },
-                "category": {
+                "designfc": {
                   "type": "string"
+                },
+                "sub_category_design_size": {
+                  "type": "object"
                 },
                 "published_at": {
                   "type": "string"

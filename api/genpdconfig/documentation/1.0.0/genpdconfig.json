@@ -623,6 +623,12 @@
               "supplier": {
                 "type": "string"
               },
+              "designfc": {
+                "type": "string"
+              },
+              "sub_category_design_size": {
+                "type": "object"
+              },
               "published_at": {
                 "type": "string"
               },

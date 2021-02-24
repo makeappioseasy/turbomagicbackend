@@ -671,6 +671,67 @@
               }
             }
           },
+          "designfc": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "background_image_path": {
+                "type": "string"
+              },
+              "front_width": {
+                "type": "string"
+              },
+              "front_height": {
+                "type": "string"
+              },
+              "front_top": {
+                "type": "string"
+              },
+              "front_left": {
+                "type": "string"
+              },
+              "back_width": {
+                "type": "string"
+              },
+              "back_height": {
+                "type": "string"
+              },
+              "back_top": {
+                "type": "string"
+              },
+              "back_left": {
+                "type": "string"
+              },
+              "resolution": {
+                "type": "string"
+              },
+              "image_type": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "sub_category_id": {
+                "type": "integer"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "sub_category_design_size": {
+            "type": "object"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -771,6 +832,12 @@
           },
           "supplier": {
             "type": "string"
+          },
+          "designfc": {
+            "type": "string"
+          },
+          "sub_category_design_size": {
+            "type": "object"
           },
           "published_at": {
             "type": "string",

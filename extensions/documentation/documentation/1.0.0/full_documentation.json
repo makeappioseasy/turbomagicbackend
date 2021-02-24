@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "02/23/2021 10:43:16 PM"
+    "x-generation-date": "02/24/2021 6:24:19 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -32491,11 +32491,17 @@
                 "supplier_id": {
                   "type": "integer"
                 },
+                "category": {
+                  "type": "string"
+                },
                 "supplier": {
                   "type": "string"
                 },
-                "category": {
+                "designfc": {
                   "type": "string"
+                },
+                "sub_category_design_size": {
+                  "type": "object"
                 },
                 "published_at": {
                   "type": "string"
@@ -33114,11 +33120,17 @@
               "supplier_id": {
                 "type": "integer"
               },
+              "category": {
+                "type": "string"
+              },
               "supplier": {
                 "type": "string"
               },
-              "category": {
+              "designfc": {
                 "type": "string"
+              },
+              "sub_category_design_size": {
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -33701,6 +33713,12 @@
               "supplier": {
                 "type": "string"
               },
+              "designfc": {
+                "type": "string"
+              },
+              "sub_category_design_size": {
+                "type": "object"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -33905,6 +33923,12 @@
               },
               "supplier": {
                 "type": "string"
+              },
+              "designfc": {
+                "type": "string"
+              },
+              "sub_category_design_size": {
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -34167,6 +34191,12 @@
               },
               "supplier": {
                 "type": "string"
+              },
+              "designfc": {
+                "type": "string"
+              },
+              "sub_category_design_size": {
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -34876,11 +34906,17 @@
               "supplier_id": {
                 "type": "integer"
               },
+              "category": {
+                "type": "string"
+              },
               "supplier": {
                 "type": "string"
               },
-              "category": {
+              "designfc": {
                 "type": "string"
+              },
+              "sub_category_design_size": {
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -36394,6 +36430,67 @@
               }
             }
           },
+          "designfc": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "background_image_path": {
+                "type": "string"
+              },
+              "front_width": {
+                "type": "string"
+              },
+              "front_height": {
+                "type": "string"
+              },
+              "front_top": {
+                "type": "string"
+              },
+              "front_left": {
+                "type": "string"
+              },
+              "back_width": {
+                "type": "string"
+              },
+              "back_height": {
+                "type": "string"
+              },
+              "back_top": {
+                "type": "string"
+              },
+              "back_left": {
+                "type": "string"
+              },
+              "resolution": {
+                "type": "string"
+              },
+              "image_type": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "sub_category_id": {
+                "type": "integer"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "sub_category_design_size": {
+            "type": "object"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -36494,6 +36591,12 @@
           },
           "supplier": {
             "type": "string"
+          },
+          "designfc": {
+            "type": "string"
+          },
+          "sub_category_design_size": {
+            "type": "object"
           },
           "published_at": {
             "type": "string",
@@ -36684,6 +36787,12 @@
                 },
                 "supplier": {
                   "type": "string"
+                },
+                "designfc": {
+                  "type": "string"
+                },
+                "sub_category_design_size": {
+                  "type": "object"
                 },
                 "published_at": {
                   "type": "string"

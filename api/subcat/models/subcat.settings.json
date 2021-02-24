@@ -103,8 +103,14 @@
       "via": "subcategory"
     },
     "supplier": {
-      "via": "subcat",
-      "model": "supplier"
+      "model": "supplier",
+      "via": "subcat"
+    },
+    "designfc": {
+      "model": "designfc"
+    },
+    "sub_category_design_size": {
+      "type": "json"
     }
   }
 }

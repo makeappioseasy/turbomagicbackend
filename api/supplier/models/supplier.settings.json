@@ -15,8 +15,8 @@
       "type": "string"
     },
     "subcat": {
-      "collection": "subcat",
-      "via": "supplier"
+      "via": "supplier",
+      "collection": "subcat"
     }
   }
 }
