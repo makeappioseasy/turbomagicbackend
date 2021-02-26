@@ -16,6 +16,9 @@
     },
     "nichecat": {
       "model": "gennichecat"
+    },
+    "gender": {
+      "model": "gengender"
     }
   }
 }

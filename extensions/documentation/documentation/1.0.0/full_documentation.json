@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "02/24/2021 6:24:19 PM"
+    "x-generation-date": "02/26/2021 11:08:19 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -32970,6 +32970,124 @@
           "sub_category_id": {
             "type": "integer"
           },
+          "subcat": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "sub_category_style": {
+                "type": "string"
+              },
+              "sub_category_refer": {
+                "type": "string"
+              },
+              "sub_category_product_name": {
+                "type": "string"
+              },
+              "sub_category_product_sku": {
+                "type": "object"
+              },
+              "sub_category_color_name": {
+                "type": "object"
+              },
+              "sub_category_color_code": {
+                "type": "object"
+              },
+              "sub_category_background_front_change": {
+                "type": "object"
+              },
+              "sub_category_background_back_change": {
+                "type": "object"
+              },
+              "sub_category_front_json": {
+                "type": "object"
+              },
+              "sub_category_back_json": {
+                "type": "object"
+              },
+              "sub_category_status": {
+                "type": "string"
+              },
+              "sub_category_size": {
+                "type": "object"
+              },
+              "sub_category_material": {
+                "type": "string"
+              },
+              "sub_category_etsy_taxonomy_id": {
+                "type": "string"
+              },
+              "sub_category_etsy_categories_id": {
+                "type": "string"
+              },
+              "sub_category_amazon_feed_project_type": {
+                "type": "string"
+              },
+              "sub_category_amazon_size_name": {
+                "type": "string"
+              },
+              "sub_category_amazon_meterial_type": {
+                "type": "string"
+              },
+              "sub_category_amazon_variation_theme": {
+                "type": "string"
+              },
+              "sub_category_amazon_item_type": {
+                "type": "string"
+              },
+              "sub_category_storenvy_category_id": {
+                "type": "string"
+              },
+              "sub_category_bonanza_category_id": {
+                "type": "string"
+              },
+              "sub_category_ebay_category_id": {
+                "type": "string"
+              },
+              "sub_category_etsy_propertie_id": {
+                "type": "string"
+              },
+              "sub_category_svg_swap_config": {
+                "type": "boolean"
+              },
+              "sub_category_image_upload_size": {
+                "type": "object"
+              },
+              "sub_category_gray_design_config": {
+                "type": "boolean"
+              },
+              "category_id": {
+                "type": "integer"
+              },
+              "supplier_id": {
+                "type": "integer"
+              },
+              "category": {
+                "type": "string"
+              },
+              "supplier": {
+                "type": "string"
+              },
+              "designfc": {
+                "type": "string"
+              },
+              "sub_category_design_size": {
+                "type": "object"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -32989,6 +33107,9 @@
           },
           "sub_category_id": {
             "type": "integer"
+          },
+          "subcat": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -34054,6 +34175,28 @@
               }
             }
           },
+          "gender": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "gendername": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -34066,6 +34209,9 @@
             "type": "string"
           },
           "nichecat": {
+            "type": "string"
+          },
+          "gender": {
             "type": "string"
           },
           "published_at": {
@@ -34268,6 +34414,28 @@
               }
             }
           },
+          "gender": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "gendername": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -34280,6 +34448,9 @@
             "type": "string"
           },
           "nichecat": {
+            "type": "string"
+          },
+          "gender": {
             "type": "string"
           },
           "published_at": {

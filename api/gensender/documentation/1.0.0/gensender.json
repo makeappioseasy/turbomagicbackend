@@ -547,6 +547,28 @@
               }
             }
           },
+          "gender": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "gendername": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -559,6 +581,9 @@
             "type": "string"
           },
           "nichecat": {
+            "type": "string"
+          },
+          "gender": {
             "type": "string"
           },
           "published_at": {
