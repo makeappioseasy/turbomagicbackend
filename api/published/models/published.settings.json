@@ -43,6 +43,9 @@
     },
     "store": {
       "model": "store"
+    },
+    "project": {
+      "model": "project"
     }
   }
 }

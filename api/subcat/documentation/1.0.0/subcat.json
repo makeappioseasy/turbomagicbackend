@@ -718,6 +718,9 @@
               "sub_category_id": {
                 "type": "integer"
               },
+              "subcat": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },

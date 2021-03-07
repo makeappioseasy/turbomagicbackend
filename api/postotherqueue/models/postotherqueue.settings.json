@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "postotherqueues",
   "info": {
-    "name": "postotherqueue"
+    "name": "postotherqueue",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -18,6 +19,9 @@
     },
     "post_try": {
       "type": "integer"
+    },
+    "projectpost": {
+      "model": "projectpost"
     }
   }
 }

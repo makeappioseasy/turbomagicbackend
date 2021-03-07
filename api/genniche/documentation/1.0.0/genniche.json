@@ -536,6 +536,9 @@
               "occasionname": {
                 "type": "string"
               },
+              "createonlyme": {
+                "type": "boolean"
+              },
               "published_at": {
                 "type": "string"
               },

@@ -543,6 +543,40 @@
           "project_cost": {
             "type": "number"
           },
+          "category": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "category_name": {
+                "type": "string"
+              },
+              "category_name_refer": {
+                "type": "string"
+              },
+              "category_status": {
+                "type": "boolean"
+              },
+              "subcategory": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -571,6 +605,9 @@
           },
           "project_cost": {
             "type": "number"
+          },
+          "category": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",

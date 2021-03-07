@@ -544,6 +544,43 @@
           "store_id": {
             "type": "integer"
           },
+          "store": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "store_name": {
+                "type": "string"
+              },
+              "store_image_path": {
+                "type": "string"
+              },
+              "store_description": {
+                "type": "string"
+              },
+              "store_variable": {
+                "type": "object"
+              },
+              "store_status": {
+                "type": "boolean"
+              },
+              "store_max_publish": {
+                "type": "integer"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -573,6 +610,9 @@
           },
           "store_id": {
             "type": "integer"
+          },
+          "store": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",

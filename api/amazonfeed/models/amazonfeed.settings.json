@@ -47,14 +47,14 @@
     "amazon_feed_id": {
       "type": "biginteger"
     },
-    "published_id": {
-      "type": "biginteger"
-    },
     "feed_submit_id": {
       "type": "biginteger"
     },
     "feed_submit_script_id": {
       "type": "integer"
+    },
+    "published": {
+      "model": "published"
     }
   }
 }

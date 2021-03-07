@@ -560,14 +560,66 @@
           "amazon_feed_id": {
             "type": "integer"
           },
-          "published_id": {
-            "type": "integer"
-          },
           "feed_submit_id": {
             "type": "integer"
           },
           "feed_submit_script_id": {
             "type": "integer"
+          },
+          "published": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "marketplace_product_title": {
+                "type": "string"
+              },
+              "published_sku": {
+                "type": "string"
+              },
+              "published_date": {
+                "type": "string"
+              },
+              "published_link": {
+                "type": "string"
+              },
+              "published_status": {
+                "type": "string"
+              },
+              "published_log": {
+                "type": "string"
+              },
+              "marketplace_product_id": {
+                "type": "string"
+              },
+              "project_id": {
+                "type": "integer"
+              },
+              "member_id": {
+                "type": "integer"
+              },
+              "store_id": {
+                "type": "integer"
+              },
+              "store": {
+                "type": "string"
+              },
+              "project": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
           "published_at": {
             "type": "string",
@@ -615,14 +667,14 @@
           "amazon_feed_id": {
             "type": "integer"
           },
-          "published_id": {
-            "type": "integer"
-          },
           "feed_submit_id": {
             "type": "integer"
           },
           "feed_submit_script_id": {
             "type": "integer"
+          },
+          "published": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",

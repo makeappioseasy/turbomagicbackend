@@ -25,6 +25,9 @@
     },
     "store_id": {
       "type": "integer"
+    },
+    "store": {
+      "model": "store"
     }
   }
 }

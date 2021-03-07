@@ -49,6 +49,9 @@
     },
     "sub_category_id": {
       "type": "integer"
+    },
+    "subcat": {
+      "model": "subcat"
     }
   }
 }

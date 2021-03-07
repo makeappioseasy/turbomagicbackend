@@ -31,6 +31,9 @@
     },
     "project_cost": {
       "type": "float"
+    },
+    "category": {
+      "model": "category"
     }
   }
 }
