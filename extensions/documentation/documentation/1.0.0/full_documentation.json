@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/07/2021 3:14:42 PM"
+    "x-generation-date": "03/07/2021 6:23:07 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -32555,6 +32555,12 @@
                 "sub_category_design_size": {
                   "type": "object"
                 },
+                "sub_category_font_color": {
+                  "type": "object"
+                },
+                "sub_category_price_default": {
+                  "type": "number"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -33129,6 +33135,12 @@
               "sub_category_design_size": {
                 "type": "object"
               },
+              "sub_category_font_color": {
+                "type": "object"
+              },
+              "sub_category_price_default": {
+                "type": "number"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -33304,6 +33316,12 @@
               },
               "sub_category_design_size": {
                 "type": "object"
+              },
+              "sub_category_font_color": {
+                "type": "object"
+              },
+              "sub_category_price_default": {
+                "type": "number"
               },
               "published_at": {
                 "type": "string"
@@ -33507,6 +33525,12 @@
               },
               "sub_category_design_size": {
                 "type": "object"
+              },
+              "sub_category_font_color": {
+                "type": "object"
+              },
+              "sub_category_price_default": {
+                "type": "number"
               },
               "published_at": {
                 "type": "string"
@@ -34064,6 +34088,12 @@
               "sub_category_design_size": {
                 "type": "object"
               },
+              "sub_category_font_color": {
+                "type": "object"
+              },
+              "sub_category_price_default": {
+                "type": "number"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -34274,6 +34304,12 @@
               },
               "sub_category_design_size": {
                 "type": "object"
+              },
+              "sub_category_font_color": {
+                "type": "object"
+              },
+              "sub_category_price_default": {
+                "type": "number"
               },
               "published_at": {
                 "type": "string"
@@ -34567,6 +34603,12 @@
               },
               "sub_category_design_size": {
                 "type": "object"
+              },
+              "sub_category_font_color": {
+                "type": "object"
+              },
+              "sub_category_price_default": {
+                "type": "number"
               },
               "published_at": {
                 "type": "string"
@@ -35361,6 +35403,12 @@
               },
               "sub_category_design_size": {
                 "type": "object"
+              },
+              "sub_category_font_color": {
+                "type": "object"
+              },
+              "sub_category_price_default": {
+                "type": "number"
               },
               "published_at": {
                 "type": "string"
@@ -36963,6 +37011,12 @@
               "sub_category_design_size": {
                 "type": "object"
               },
+              "sub_category_font_color": {
+                "type": "object"
+              },
+              "sub_category_price_default": {
+                "type": "number"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -37334,6 +37388,12 @@
           "sub_category_design_size": {
             "type": "object"
           },
+          "sub_category_font_color": {
+            "type": "object"
+          },
+          "sub_category_price_default": {
+            "type": "number"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -37440,6 +37500,12 @@
           },
           "sub_category_design_size": {
             "type": "object"
+          },
+          "sub_category_font_color": {
+            "type": "object"
+          },
+          "sub_category_price_default": {
+            "type": "number"
           },
           "published_at": {
             "type": "string",
@@ -37585,6 +37651,12 @@
               },
               "sub_category_design_size": {
                 "type": "object"
+              },
+              "sub_category_font_color": {
+                "type": "object"
+              },
+              "sub_category_price_default": {
+                "type": "number"
               },
               "published_at": {
                 "type": "string"
@@ -37757,6 +37829,12 @@
                 },
                 "sub_category_design_size": {
                   "type": "object"
+                },
+                "sub_category_font_color": {
+                  "type": "object"
+                },
+                "sub_category_price_default": {
+                  "type": "number"
                 },
                 "published_at": {
                   "type": "string"

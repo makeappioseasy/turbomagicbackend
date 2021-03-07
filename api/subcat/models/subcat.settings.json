@@ -111,6 +111,12 @@
     },
     "sub_category_design_size": {
       "type": "json"
+    },
+    "sub_category_font_color": {
+      "type": "json"
+    },
+    "sub_category_price_default": {
+      "type": "float"
     }
   }
 }

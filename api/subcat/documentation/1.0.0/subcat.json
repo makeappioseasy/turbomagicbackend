@@ -735,6 +735,12 @@
           "sub_category_design_size": {
             "type": "object"
           },
+          "sub_category_font_color": {
+            "type": "object"
+          },
+          "sub_category_price_default": {
+            "type": "number"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -841,6 +847,12 @@
           },
           "sub_category_design_size": {
             "type": "object"
+          },
+          "sub_category_font_color": {
+            "type": "object"
+          },
+          "sub_category_price_default": {
+            "type": "number"
           },
           "published_at": {
             "type": "string",
