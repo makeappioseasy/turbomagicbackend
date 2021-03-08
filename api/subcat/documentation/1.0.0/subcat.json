@@ -739,7 +739,7 @@
             "type": "object"
           },
           "sub_category_price_default": {
-            "type": "number"
+            "type": "object"
           },
           "published_at": {
             "type": "string",
@@ -852,7 +852,7 @@
             "type": "object"
           },
           "sub_category_price_default": {
-            "type": "number"
+            "type": "object"
           },
           "published_at": {
             "type": "string",

@@ -116,7 +116,7 @@
       "type": "json"
     },
     "sub_category_price_default": {
-      "type": "float"
+      "type": "json"
     }
   }
 }

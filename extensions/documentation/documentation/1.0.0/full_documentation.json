@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/07/2021 6:23:07 PM"
+    "x-generation-date": "03/08/2021 12:05:47 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -32559,7 +32559,7 @@
                   "type": "object"
                 },
                 "sub_category_price_default": {
-                  "type": "number"
+                  "type": "object"
                 },
                 "published_at": {
                   "type": "string"
@@ -33139,7 +33139,7 @@
                 "type": "object"
               },
               "sub_category_price_default": {
-                "type": "number"
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -33321,7 +33321,7 @@
                 "type": "object"
               },
               "sub_category_price_default": {
-                "type": "number"
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -33530,7 +33530,7 @@
                 "type": "object"
               },
               "sub_category_price_default": {
-                "type": "number"
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -34092,7 +34092,7 @@
                 "type": "object"
               },
               "sub_category_price_default": {
-                "type": "number"
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -34309,7 +34309,7 @@
                 "type": "object"
               },
               "sub_category_price_default": {
-                "type": "number"
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -34608,7 +34608,7 @@
                 "type": "object"
               },
               "sub_category_price_default": {
-                "type": "number"
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -35408,7 +35408,7 @@
                 "type": "object"
               },
               "sub_category_price_default": {
-                "type": "number"
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -37015,7 +37015,7 @@
                 "type": "object"
               },
               "sub_category_price_default": {
-                "type": "number"
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -37392,7 +37392,7 @@
             "type": "object"
           },
           "sub_category_price_default": {
-            "type": "number"
+            "type": "object"
           },
           "published_at": {
             "type": "string",
@@ -37505,7 +37505,7 @@
             "type": "object"
           },
           "sub_category_price_default": {
-            "type": "number"
+            "type": "object"
           },
           "published_at": {
             "type": "string",
@@ -37656,7 +37656,7 @@
                 "type": "object"
               },
               "sub_category_price_default": {
-                "type": "number"
+                "type": "object"
               },
               "published_at": {
                 "type": "string"
@@ -37834,7 +37834,7 @@
                   "type": "object"
                 },
                 "sub_category_price_default": {
-                  "type": "number"
+                  "type": "object"
                 },
                 "published_at": {
                   "type": "string"
