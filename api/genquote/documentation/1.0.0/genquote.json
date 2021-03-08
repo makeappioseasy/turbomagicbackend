@@ -688,7 +688,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {

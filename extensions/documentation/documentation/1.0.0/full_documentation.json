@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/08/2021 12:05:47 PM"
+    "x-generation-date": "03/08/2021 12:29:24 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -32558,7 +32558,7 @@
                 "sub_category_font_color": {
                   "type": "object"
                 },
-                "sub_category_price_default": {
+                "sub_category_cost_default": {
                   "type": "object"
                 },
                 "published_at": {
@@ -33138,7 +33138,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {
@@ -33320,7 +33320,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {
@@ -33529,7 +33529,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {
@@ -34091,7 +34091,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {
@@ -34308,7 +34308,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {
@@ -34607,7 +34607,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {
@@ -35407,7 +35407,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {
@@ -37014,7 +37014,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {
@@ -37391,7 +37391,7 @@
           "sub_category_font_color": {
             "type": "object"
           },
-          "sub_category_price_default": {
+          "sub_category_cost_default": {
             "type": "object"
           },
           "published_at": {
@@ -37504,7 +37504,7 @@
           "sub_category_font_color": {
             "type": "object"
           },
-          "sub_category_price_default": {
+          "sub_category_cost_default": {
             "type": "object"
           },
           "published_at": {
@@ -37655,7 +37655,7 @@
               "sub_category_font_color": {
                 "type": "object"
               },
-              "sub_category_price_default": {
+              "sub_category_cost_default": {
                 "type": "object"
               },
               "published_at": {
@@ -37833,7 +37833,7 @@
                 "sub_category_font_color": {
                   "type": "object"
                 },
-                "sub_category_price_default": {
+                "sub_category_cost_default": {
                   "type": "object"
                 },
                 "published_at": {
